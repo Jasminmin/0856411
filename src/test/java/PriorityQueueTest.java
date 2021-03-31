@@ -22,7 +22,7 @@ public class PriorityQueueTest {
                 arguments(new int[]{},new int[]{}),
                 arguments(new int[]{},new int[]{}),
                 arguments(new int[]{},new int[]{}),
-                arguments(new int[]{},new int[]{-2,-1,2,3,7})
+                arguments(new int[]{},new int[]{})
         );
     }
     @ParameterizedTest(name="#{index} - Test with Argument={0},{1}")
